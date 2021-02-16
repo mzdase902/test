@@ -1,0 +1,20 @@
+/* Riviere Idustries property */
+h1 {
+    color: red;
+}
+
+.first_paragraph {
+    color: seagreen;
+}
+
+.big_font {
+    font-size: 50px;
+}
+
+#only_one_allowed {
+    color: sienna;
+}
+
+div .first_paragraph {
+    text-transform: uppercase;
+}
