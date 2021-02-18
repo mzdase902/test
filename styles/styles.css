@@ -1,20 +1,44 @@
 /* Riviere Idustries property */
-h1 {
-    color: red;
-}
 
-.first_paragraph {
-    color: seagreen;
+body {
+    background-color: rgb(48, 175, 192);
+    padding: 20px;
 }
-
-.big_font {
-    font-size: 50px;
+header,
+footer {
+    background-color: rgb(252, 164, 63);
+    padding: 10px;
 }
-
-#only_one_allowed {
-    color: sienna;
+header {
+    text-align: right;
 }
-
-div .first_paragraph {
-    text-transform: uppercase;
+footer {
+    text-align:left;
+}
+header button,
+footer button {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 20px;
+}
+.magadan_button {
+    background-color: rgb(173, 0, 0);
+}
+.content {
+    background-color: rgb(157, 227, 229);
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.content button {
+    background-color: orange;
+}
+.content > button {
+    background-color: rgb(255, 255, 255);
+}
+.desc {
+    font-size: large;
+    font: bold 150% sans-serif;
+    padding: 10px;    
 }
