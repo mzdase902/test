@@ -25,19 +25,22 @@ footer button {
     background-color: rgb(173, 0, 0);
 }
 .content {
-    background-color: rgb(157, 227, 229);
+    background-color: rgb(136, 136, 136);
     border-width: 3px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     padding: 20px;
+    margin: 20px;
 }
 .content button {
     background-color: orange;
 }
 .content > button {
+    margin: 10px;
     background-color: rgb(255, 255, 255);
 }
 .desc {
+    background-color: rgb(157, 227, 229);
     font-size: large;
     font: bold 150% sans-serif;
     padding: 10px;    
